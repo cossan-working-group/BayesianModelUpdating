@@ -16,7 +16,7 @@ In this repository, 4 tutorials are presented to enable users to understand how 
 
 ## Tutorials:
 
-### 1-Dimensional Linear Static System:
+### 1-Dimensional Static Spring-Mass System:
 
 This tutorial presents a simple static Spring-Mass system. In this set-up, the spring is assumed to obey [Hooke's Law](http://latex.codecogs.com/svg.latex?F%3D-k%5Ccdot%7Bd%7D) model whereby the restoring force of the spring, F, is linearly proportional to the length of its displacement from rest length, d. The elasticity constant of the spring is k. This study, seeks to realize two objectives: 
 
