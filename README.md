@@ -20,7 +20,7 @@ In this repository, 4 tutorials are presented to enable users to understand how 
 
 This tutorial presents a simple static Spring-Mass system. In this set-up, the spring is assumed to obey [Hooke's Law](http://latex.codecogs.com/svg.latex?F%3D-k%5Ccdot%7Bd%7D) model whereby the restoring force of the spring, F, is linearly proportional to the length of its displacement from rest length, d. The elasticity constant of the spring is k. This study, seeks to realize two objectives: 
 
-1. To compare the estimation the epistemic parameter k;
+1. To compare the estimation the epistemic parameter k between the samplers;
 
 2. To compare the model updating results obtained through the use of MCMC, TMCMC, and SMC.
 
@@ -28,7 +28,7 @@ This tutorial presents a simple static Spring-Mass system. In this set-up, the s
 
 This tutorial presents a simple harmonic oscillator system. In this set-up, the natural oscillating frequency of the ocillator, F, obeys the [Simple Harmonic Frequency](http://latex.codecogs.com/svg.latex?F%3D%5Csqrt%7B%5Cfrac%7Bk%7D%7Bm%7D%7D) model whereby F is defined as the square-root of the ratio between the elasticity constant of the spring, k, and the mass of the body attached to the oscillator, m. This study, seeks to realize two objectives: 
 
-1. To compare the estimation the epistemic parameter k;
+1. To compare the estimation the epistemic parameter k between the samplers;
 
 2. To compare the model updating results obtained through the use of MCMC, TMCMC, and SMC.
 
@@ -48,7 +48,7 @@ This tutorial is based on the DLR-AIRMOD problem by [Govers et. al (2014)](https
 
 1. To observe the performance of each of the advanced Monte Carlo samplers in obtaining samples from a high-dimensional posterior distribution;
 
-2. To asses the robustness of each of the sampling techniques;
+2. To asses the robustness of each of the sampling algorithm;
 
 3. To estimate the 18 epistemic input parameters;
 
