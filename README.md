@@ -58,5 +58,4 @@ Note: To run this tutorial on MATLAB, please ensure that you have installed Open
 
 
 ## Citation
-
-At the time of writing, the journal article to this tutorial problems presented in this repository is still under review. A pre-print version of the journal paper is made available in this repository.
+A. Lye, A. Cicirello, E. Patelli (2021). Sampling Methods for solving Bayesian Model Updating Problems: A Tutorial, Mechanical Systems and Signal Processing, 159. doi: 10.1016/j.ymssp.2021.107760
