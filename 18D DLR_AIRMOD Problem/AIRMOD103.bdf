@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 SOL 103
 CEND
 SET 1=1
@@ -22,28 +21,3 @@ INCLUDE AIRMOD_SOLID_MODEL_ONLY.BDF
 INCLUDE PARAM.DAT
 ENDDATA 
     
-=======
-SOL 103
-CEND
-SET 1=1
-ECHO = NONE
-RESVEC = YES
-SUBCASE 1
-   METHOD = 1
-   SPC = 2
-   VECTOR(PUNCH,SORT1,REAL)=1
-BEGIN BULK
-PARAM   POST     -1
-PARAM   MAXRATIO 1E+6            
-PARAM   K6ROT    100.            
-PARAM   COUPMASS 1
-PARAM   AUTOSPC  YES      
-PARAM   GRDPNT   0        
-PARAM   PRTMAXIM YES
-$EIGRL    1                       30      0                       MASS
-EIGRL          1                      35                            MASS
-INCLUDE AIRMOD_SOLID_MODEL_ONLY.BDF
-INCLUDE PARAM.DAT
-ENDDATA 
-    
->>>>>>> 11cabef1655a3074a01a0bc24dfae81c3b8a6321
