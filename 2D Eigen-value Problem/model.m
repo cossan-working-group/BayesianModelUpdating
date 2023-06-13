@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d0e5055bac95a5b204eb31cd42f16409d7ad797b8d7b071242dad207191266e4
-size 299
+function [eigenvalues] = model(Thetas)
+
+%MODEL: Eigenvalues of 2 x 2 square matrix
+
+eigenvalues(:,1) = 0.5*((Thetas(:,1) + 2*Thetas(:,2)) + (Thetas(:,1).^2 + 4*(Thetas(:,2).^2)).^0.5);
+
+eigenvalues(:,2) = 0.5*((Thetas(:,1) + 2*Thetas(:,2)) - (Thetas(:,1).^2 + 4*(Thetas(:,2).^2)).^0.5);
+
+end
